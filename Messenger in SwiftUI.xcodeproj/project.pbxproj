@@ -3,19 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC1B86D8D6811E706D6070A6 /* Pods_Messenger_in_SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91AE0BD2E48C3BA086220480 /* Pods_Messenger_in_SwiftUI.framework */; };
 		EDA4FA7E245C8B9800EB95F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4FA7D245C8B9800EB95F2 /* AppDelegate.swift */; };
 		EDA4FA80245C8B9800EB95F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4FA7F245C8B9800EB95F2 /* SceneDelegate.swift */; };
 		EDA4FA82245C8B9800EB95F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4FA81245C8B9800EB95F2 /* ContentView.swift */; };
 		EDA4FA84245C8B9A00EB95F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA4FA83245C8B9A00EB95F2 /* Assets.xcassets */; };
 		EDA4FA87245C8B9A00EB95F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA4FA86245C8B9A00EB95F2 /* Preview Assets.xcassets */; };
 		EDA4FA8A245C8B9A00EB95F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA4FA88245C8B9A00EB95F2 /* LaunchScreen.storyboard */; };
+		EDA4FA92245C8C6700EB95F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDA4FA91245C8C6700EB95F2 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D983ACDC8B4DBE8FD1D61FC /* Pods-Messenger in SwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messenger in SwiftUI.release.xcconfig"; path = "Target Support Files/Pods-Messenger in SwiftUI/Pods-Messenger in SwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		91AE0BD2E48C3BA086220480 /* Pods_Messenger_in_SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Messenger_in_SwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED044B3A72BC5C0932E54C2D /* Pods-Messenger in SwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messenger in SwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-Messenger in SwiftUI/Pods-Messenger in SwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
 		EDA4FA7A245C8B9800EB95F2 /* Messenger in SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Messenger in SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA4FA7D245C8B9800EB95F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDA4FA7F245C8B9800EB95F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,8 @@
 		EDA4FA86245C8B9A00EB95F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EDA4FA89245C8B9A00EB95F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDA4FA8B245C8B9A00EB95F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA4FA91245C8C6700EB95F2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EDA4FA93245C8C6B00EB95F2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +38,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC1B86D8D6811E706D6070A6 /* Pods_Messenger_in_SwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A6A6FCFA9E9A086CEC58A12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91AE0BD2E48C3BA086220480 /* Pods_Messenger_in_SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6C33C88D52E87A896EEB414 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED044B3A72BC5C0932E54C2D /* Pods-Messenger in SwiftUI.debug.xcconfig */,
+				4D983ACDC8B4DBE8FD1D61FC /* Pods-Messenger in SwiftUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EDA4FA71245C8B9800EB95F2 = {
 			isa = PBXGroup;
 			children = (
+				EDA4FA91245C8C6700EB95F2 /* GoogleService-Info.plist */,
 				EDA4FA7C245C8B9800EB95F2 /* Messenger in SwiftUI */,
 				EDA4FA7B245C8B9800EB95F2 /* Products */,
+				C6C33C88D52E87A896EEB414 /* Pods */,
+				2A6A6FCFA9E9A086CEC58A12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +90,7 @@
 				EDA4FA83245C8B9A00EB95F2 /* Assets.xcassets */,
 				EDA4FA88245C8B9A00EB95F2 /* LaunchScreen.storyboard */,
 				EDA4FA8B245C8B9A00EB95F2 /* Info.plist */,
+				EDA4FA93245C8C6B00EB95F2 /* GoogleService-Info.plist */,
 				EDA4FA85245C8B9A00EB95F2 /* Preview Content */,
 			);
 			path = "Messenger in SwiftUI";
@@ -82,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDA4FA8E245C8B9A00EB95F2 /* Build configuration list for PBXNativeTarget "Messenger in SwiftUI" */;
 			buildPhases = (
+				E057568CD4F74FB42853E463 /* [CP] Check Pods Manifest.lock */,
 				EDA4FA76245C8B9800EB95F2 /* Sources */,
 				EDA4FA77245C8B9800EB95F2 /* Frameworks */,
 				EDA4FA78245C8B9800EB95F2 /* Resources */,
+				82BFD9F4DE27BCD78AFB9006 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,12 +165,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDA4FA8A245C8B9A00EB95F2 /* LaunchScreen.storyboard in Resources */,
+				EDA4FA92245C8C6700EB95F2 /* GoogleService-Info.plist in Resources */,
 				EDA4FA87245C8B9A00EB95F2 /* Preview Assets.xcassets in Resources */,
 				EDA4FA84245C8B9A00EB95F2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82BFD9F4DE27BCD78AFB9006 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Messenger in SwiftUI/Pods-Messenger in SwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Messenger in SwiftUI/Pods-Messenger in SwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Messenger in SwiftUI/Pods-Messenger in SwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E057568CD4F74FB42853E463 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Messenger in SwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EDA4FA76245C8B9800EB95F2 /* Sources */ = {
@@ -282,10 +356,12 @@
 		};
 		EDA4FA8F245C8B9A00EB95F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED044B3A72BC5C0932E54C2D /* Pods-Messenger in SwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Messenger in SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = A343Q2S8H5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Messenger in SwiftUI/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -301,10 +377,12 @@
 		};
 		EDA4FA90245C8B9A00EB95F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D983ACDC8B4DBE8FD1D61FC /* Pods-Messenger in SwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Messenger in SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = A343Q2S8H5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Messenger in SwiftUI/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (

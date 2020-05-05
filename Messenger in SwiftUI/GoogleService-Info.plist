@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>253507272524-60n9j31c404floar1qevmbs6p6rqj447.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.253507272524-60n9j31c404floar1qevmbs6p6rqj447</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBDDK_B3vUbrStbpvTC6_UKu2dz3qVREUY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>253507272524</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Mohsen.Messenger-in-SwiftUI</string>
+	<key>PROJECT_ID</key>
+	<string>messenger-4cf79</string>
+	<key>STORAGE_BUCKET</key>
+	<string>messenger-4cf79.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:253507272524:ios:559dcabe722fba2e2fd9e9</string>
+	<key>DATABASE_URL</key>
+	<string>https://messenger-4cf79.firebaseio.com</string>
+</dict>
+</plist>
